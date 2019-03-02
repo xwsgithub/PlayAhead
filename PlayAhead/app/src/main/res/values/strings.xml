@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">PlayAhead</string>
+    <string name="数独说明">
+        在空格内填入1～9的任意一个数，使得盘面内，每一行、每一列、每一个正方形粗线九宫格区域内的数字，均包含1到9，不含有重复的数字。
+	</string>
+</resources>

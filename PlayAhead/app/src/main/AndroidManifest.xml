@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.y.playahead">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <activity android:name=".PA.PAMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PA.PALoading"/>
+
+        <activity android:name=".game2048.homeActivityfor2048"/>
+
+        <activity android:name=".game2048.MainActivityfor2048"/>
+
+        <activity android:name=".sd.sd_About"/>
+
+        <activity android:name=".sd.sd_Game"/>
+
+        <activity android:name=".sd.sd_Sudoku"/>
+
+        <activity android:name=".szhrd.szhrd_MainActivity"/>
+
+        <activity android:name=".szhrd.szhrd_MyDialog"/>
+
+        <activity android:name=".szhrd.szhrd_start"/>
+
+    </application>
+
+</manifest>
