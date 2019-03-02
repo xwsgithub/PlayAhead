@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">game2048</string>
+    <string name="String">Score</string>
+    <string name="score">Score</string>
+    <string name="newgame">newgame</string>
+    <string name="bestscore">bestscore</string>
+    <string name="appinfp">appinfp</string>
+    <string name="Bestscore">Bestscore</string>
+</resources>
