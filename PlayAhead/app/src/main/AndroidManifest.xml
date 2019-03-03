@@ -19,6 +19,8 @@
 
         <activity android:name=".PA.PALoading"/>
 
+        <activity android:name=".PA.PASetting"/>
+
         <activity android:name=".game2048.homeActivityfor2048"/>
 
         <activity android:name=".game2048.MainActivityfor2048"/>

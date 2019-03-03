@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageButton;
 
 import com.example.y.playahead.R;
@@ -19,6 +20,7 @@ public class PAMainActivity extends Activity {
         ImageButton ibt_sd=(ImageButton)findViewById(R.id.ibt_sd);
         ImageButton ibt_2048=(ImageButton)findViewById(R.id.ibt_2048);
         ImageButton ibt_szhrd=(ImageButton)findViewById(R.id.ibt_szhrd);
+        Button bt_setting=(Button) findViewById(R.id.bt_setting);
 
         ibt_sd.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,6 +43,14 @@ public class PAMainActivity extends Activity {
             public void onClick(View v) {
                 Intent intent=new Intent(PAMainActivity.this,PALoading.class);
                 intent.putExtra("game",3);
+                startActivity(intent);
+            }
+        });
+
+        bt_setting.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(PAMainActivity.this,PASetting.class);
                 startActivity(intent);
             }
         });

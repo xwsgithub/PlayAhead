@@ -80,9 +80,9 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:text="2048"
                     android:textSize="16sp" />
@@ -105,9 +105,9 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:text="数字华容道"
                     android:textSize="16sp" />
@@ -129,9 +129,9 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:text="推箱子"
                     android:textSize="16sp" />
@@ -145,15 +145,14 @@
 
                 <ImageButton
                     android:layout_width="match_parent"
-                    android:layout_height="90dp"
-                />
+                    android:layout_height="90dp" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="1"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
+                    android:layout_weight="1"
                     android:gravity="center"
                     android:text="21点"
                     android:textSize="16sp" />
@@ -347,6 +346,16 @@
             android:layout_weight="1"
             android:gravity="center"
             android:textSize="18sp"
+            android:text="社区"/>
+
+        <Button
+            android:id="@+id/bt_setting"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:background="@null"
             android:text="设置"/>
 
 
